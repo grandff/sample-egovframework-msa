@@ -2,6 +2,7 @@ server:
   port: 0 # random port
 
 spring:
+  profiles:    active: dev
   application:
     name: board-service
   jpa:
